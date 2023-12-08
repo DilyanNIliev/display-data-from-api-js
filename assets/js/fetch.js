@@ -30,7 +30,10 @@ card.innerHTML = `
         <p>Stock: ${product.stock}</p>
         <p>Brand: ${product.brand}</p>
         <p>Category: ${product.category}</p>
-        <a href="#" class="btn order">Buy now</a>
+        <div class="buttons">
+          <a href="productDetails.html?id=${product.id}" class="btn more">More</a>
+          <a href="#" class="btn order">Buy now</a>
+        </div>
     </div>
 </section>
 

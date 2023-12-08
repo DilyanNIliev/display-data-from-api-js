@@ -1,3 +1,5 @@
+@import url('./');
+
 body {
     background-color: orange;
 }
@@ -34,23 +36,42 @@ body {
     position: relative;
 }
 
-a.btn.order {
-    margin: 0 auto;
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a.btn {
+
     text-align: center;
     display: block;
-    width: 100px;
     padding: 10px;
-    background: orange;
     border-radius: 10px;
     text-decoration: none;
     color: #fff;
+    
+
+
+}
+
+a.btn.order {
+    background: orange;
     border: 2px solid orange;
-
-
 }
 
 a.btn.order:hover {
     background-color: transparent;
     color: orange;
+    transition: .5s;
+}
+
+a.btn.more {
+    background: green;
+    border: 2px solid green;
+}
+
+a.btn.more:hover {
+    background-color: transparent;
+    color: green;
     transition: .5s;
 }
