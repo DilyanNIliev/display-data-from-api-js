@@ -1,0 +1,21 @@
+body {
+    background: orange;
+}
+
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: #fff;;
+
+
+}
+
+.product .image img {
+    width: 500px;
+    height: 300px;
+}
+
+.product p {
+    max-width: 400px;
+}
