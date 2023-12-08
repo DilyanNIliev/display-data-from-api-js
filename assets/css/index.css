@@ -1,0 +1,56 @@
+body {
+    background-color: orange;
+}
+
+#productContainer {
+    max-width: 1400px;
+    margin: 0 auto;;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+
+
+
+}
+
+#productContainer .product-card {
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 0 20px 20px;
+}
+
+#productContainer p {
+    max-width: 400px;
+}
+
+#productContainer img {
+    width: 400px;
+    height: 400px;
+}
+
+.product {
+    position: relative;
+}
+
+a.btn.order {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background: orange;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid orange;
+
+
+}
+
+a.btn.order:hover {
+    background-color: transparent;
+    color: orange;
+    transition: .5s;
+}
